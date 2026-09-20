@@ -22,8 +22,8 @@ namespace TiendaEscolar
                 switch (opcion)
                 {
                     case "1":
-                        Console.WriteLine("Registro de productos pendiente.");
-                        break;
+                     Inventario.RegistrarProducto();
+                     break; 
 
                     case "2":
                         Console.WriteLine("Listado de productos pendiente.");
