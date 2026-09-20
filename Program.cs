@@ -25,12 +25,12 @@ namespace TiendaEscolar
                      Inventario.RegistrarProducto();
                      break; 
 
-                    case "2":
-                        Console.WriteLine("Listado de productos pendiente.");
+                    case "2": 
+                        Ventas.MostrarProductos();
                         break;
 
                     case "3":
-                        Console.WriteLine("Calculo de compra pendiente.");
+                        Ventas.CalcularCompra();
                         break;
 
                     case "4":
